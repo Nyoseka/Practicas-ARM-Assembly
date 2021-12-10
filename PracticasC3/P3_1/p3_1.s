@@ -1,3 +1,8 @@
+@ Practicas Capitulo 3
+@ Archivo p3_1.s
+@ Nombre: Grecia Cortes Valenciano
+@ Fecha: 7 diciembre 2021
+
 .data
 seed : .word 1
 const1 : .word 1103515245
