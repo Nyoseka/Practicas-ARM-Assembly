@@ -9,8 +9,8 @@
 .global main
 
 main:
-     mov   r0, #2  /* set up r0 */
-     push  {r0}    /* save r0 onto the stack */
-     mov   r0, #3  /* overwrite r0 */
-     pop   {r0}    /* restore r0 to it's initial state */
-     bx    lr      /* finish the program */
+     mov   r0, #2   @ Asignación de valor en r0
+     push  {r0}    @ Guardar valor en la pila
+     mov   r0, #3  @ Asignación de valor
+     pop   {r0}    @ Elimina el valor de la pila
+     bx    lr      @ Salida de main
