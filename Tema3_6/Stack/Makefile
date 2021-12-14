@@ -5,4 +5,4 @@ stack.o : stack.s
   as -g -o stack.o stack.s
 
 clean :
-  rm stack stack.s
+  rm stack stack.o
