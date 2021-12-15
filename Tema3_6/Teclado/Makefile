@@ -1,5 +1,5 @@
 teclado : teclado.o
-  gcc -o teclado teclado.o
+  ld -o teclado teclado.o
 
 teclado.o : teclado.s
   as -g -o teclado.o teclado.s
