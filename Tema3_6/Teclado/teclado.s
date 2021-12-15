@@ -17,7 +17,7 @@ msg2:
 msg2Len = . - msg2
 
 .section	.text
-.globl	_start
+.global	_start
 _start:
 
 @ Imprime el primer mensaje
